@@ -32,6 +32,7 @@ pipeline {
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
                                         execCommand: 'sudo cp /tmp/trainSchedule.zip  /home/deploy/'
+                                        execCommand: 'sudo cp /tmp/trainSchedule.zip  /home/deploy/deploy1'
                                     )
                                 ]
                             )
